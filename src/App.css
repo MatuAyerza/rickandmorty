@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-bottom: 5px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-bottom: 5px;
+}
