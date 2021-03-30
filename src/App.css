@@ -1,8 +1,13 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
-    margin-bottom: 5px;
+    background-color: rgb(37, 47, 134);
+    padding-bottom: 5px;
+    color: white;
 }
 
 .cards-wrapper {
@@ -10,6 +15,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 5px;
 }
 
 .card {
@@ -23,6 +29,6 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
-    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(37, 47, 134)
 }
